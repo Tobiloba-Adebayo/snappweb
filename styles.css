@@ -53,6 +53,10 @@ body{
     font-size: 18px;
 }
 
+.container .rows >  :nth-child(1) .svgs{
+    margin-top: 100px;
+}
+
 
 
 @media only screen and (max-width: 990px){
@@ -153,6 +157,10 @@ body{
     }
     .container .rows > :nth-child(1) .button{
         font-size: 20px;
+    }
+
+    body{
+        overflow: hidden;
     }
 }
 
